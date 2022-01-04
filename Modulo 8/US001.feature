@@ -16,7 +16,7 @@ Feature: Tela de seleção de produtos
         When o usuário clicar no botao Limpar
         And a seleção de cor, tamanho e/ou quantidade não e modificada
         Then a seleção é mantida e não retorna ao estado original
-
+        And o sistema não responde conforme o esperado
 
     Scenario: A seleção não contém a cor do produto
         When a cor do produto não é informada
